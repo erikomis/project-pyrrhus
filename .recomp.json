@@ -10,11 +10,12 @@
   },
   "project": "Project Pyrrhus",
   "status": "in-progress",
-  "targets": ["PC (Windows)"],
+  "targets": ["Windows"],
   "toolchain": ["ps3recomp"],
   "approach": "Static recompilation of the PPU and SPU code to C++ with ps3recomp, HLE system libraries, Direct3D 12 RSX backend",
   "maintainers": [{"name": "undecuple", "link": "https://github.com/undecuple"}],
   "links": [
+    {"label": "Upstream project", "url": "https://github.com/undecuple/project-pyrrhus"},
     {"label": "Features", "url": "https://github.com/undecuple/project-pyrrhus/blob/main/docs/FEATURES.md"},
     {"label": "Release criteria", "url": "https://github.com/undecuple/project-pyrrhus/blob/main/docs/RELEASE-CRITERIA.md"},
     {"label": "Screenshots", "url": "https://github.com/undecuple/project-pyrrhus/blob/main/docs/SCREENSHOTS.md"},
@@ -22,5 +23,5 @@
   ],
   "help": ["Testing on real Windows with NVIDIA GPUs", "Testing with real PlayStation and Xbox pads", "Speed: the first level ran at 23.3 frames per second in one scripted run (PS3: 30)"],
   "tags": ["cell", "spurs", "d3d12"],
-  "notes": "Needs your own copy of the game (disc dump, the 1.29 update and its decrypted EBOOT); the build happens on your PC. Partly playable: the first level is drawn and can be played with a pad; a scripted run gives about 23 frames per second (PS3: 30), and hand play is not measured."
+  "notes": "The upstream README reports menus and first-level gameplay, with performance and compatibility issues. The Windows build also runs under Proton on Linux. This fork has no releases of its own."
 }

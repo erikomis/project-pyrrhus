@@ -42,6 +42,12 @@ An unofficial fan port by static recompilation.</p>
 
 ---
 
+## Project metadata
+
+Project metadata for directories and tools lives in [`.recomp.json`](.recomp.json),
+following the [recomp.board specification](https://recomp.fyi/spec). Keep it
+updated when the project status, supported game version or target platforms change.
+
 ## Status
 
 **Status:** <!-- version -->[v0.1.13](https://github.com/undecuple/project-pyrrhus/releases/tag/v0.1.13)<!-- /version --> is a pre-release, partly playable. The intro movie plays, the menus run with sound, and the first level loads and can be played. Speed is below the PS3's 30 frames per second in our scripted runs. Direct3D 12 only.
